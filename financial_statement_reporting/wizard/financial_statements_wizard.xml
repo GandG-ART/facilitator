@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <!-- Financial Statement Report Form View -->
+        <record id="financial_statement_financial_statements_report_view_wizard_form" model="ir.ui.view">
+            <field name="name">financial.statement.financial.statements.report.form</field>
+            <field name="model">financial.statement.financial.statements.report.wizard</field>
+            <field name="arch" type="xml">
+                <form string="Etats financiers">
+                    <group>
+                        <field name="name"/>
+                    </group>
+                    <group>
+                        <group>
+                            <field name="start_date"/>
+                        </group>
+                        <group>
+                            <field name="end_date"/>
+                        </group>
+                    </group>
+                    <footer>
+                        <div>
+                            <button name="print_xlsx" string="Export XLSX" type="object"/>
+                            or
+                            <button string="Cancel" class="oe_link" special="cancel"/>
+                        </div>
+                    </footer>
+                </form>
+            </field>
+        </record>
+
+        <record id="financial_statement_financial_statements_report_wizard_action_windows" model="ir.actions.act_window">
+            <field name="name">Etats financiers</field>
+            <field name="res_model">financial.statement.financial.statements.report.wizard</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="view_mode">form</field>
+            <field name="target">new</field>
+        </record>
+
+        <menuitem name="Générer etats financiers"
+                  id="financial_statement_financial_statements_report_wizard"
+                  parent="financial_statement_reports_menu"
+                  action="financial_statement_financial_statements_report_wizard_action_windows"
+        />
+<!--        <act_window id="financial_statement_financial_statements_report_wizard_action_windows"-->
+<!--                    name="Etats financiers"-->
+<!--                    res_model="financial.statement.financial.statements.report.wizard"-->
+<!--                    view_type="form"-->
+<!--                    view_mode="form"-->
+<!--                    view_id="financial_statement_financial_statements_report_view_wizard_form"-->
+<!--                    target="new"/>-->
+    </data>
+</odoo>

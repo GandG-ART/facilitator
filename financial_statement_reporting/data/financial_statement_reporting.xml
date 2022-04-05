@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+
+        <!-- Financial statement reporting Menuitems -->
+        <menuitem id="financial_statement_reports_menu" name="Rapport Etats financiers"
+                  parent="account.menu_finance_reports" sequence="2"/>
+
+        <menuitem name="Compte de resultat"
+                  id="financial_statement_report_income_statement"
+                  parent="financial_statement_reports_menu"
+                  action="action_financial_report_pnl"
+        />
+
+        <menuitem name="Bilan actif"
+                  id="financial_statement_report_active_balance_sheet"
+                  parent="financial_statement_reports_menu"
+                  action="action_financial_report_ba"
+        />
+        <menuitem name="Bilan passif"
+                  id="financial_statement_report_passive_balance_sheet"
+                  parent="financial_statement_reports_menu"
+                  action="action_financial_report_bp"
+        />
+<!--        <menuitem name="Tableau des flux de trésorérie"
+                  id="financial_statement_report_cash_flow_table"
+                  parent="financial_statement_reports_menu"
+                  action="action_financial_report_tft"
+        />-->
+
+
+        <!-- Configurations Financial statement reporting -->
+        <menuitem name="Etats financiers"
+                  id="financial_statement_reporting_setting_menu"
+                  parent="account.menu_finance_configuration"
+        />
+
+        <menuitem name="Tableau"
+                  id="financial_statement_reporting_setting_type_heading"
+                  parent="financial_statement_reporting_setting_menu"
+                  action="financial_statement_table_action_windows"
+        />
+
+        <menuitem name="Rubrique"
+                  id="financial_statement_reporting_setting_heading"
+                  parent="financial_statement_reporting_setting_menu"
+                  action="financial_statement_heading_action_windows"
+        />
+    </data>
+</odoo>

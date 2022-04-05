@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+
+        <!-- ACCOUNTING CONFIGURATION HEADING PARENT CASH FLOW TABLE -->
+        <record id="financial_statement_configuration_heading_cash_flow_table_1" model="financial.statement.heading">
+            <field name="name">Trésorerie nette au 1er janvier (Trésorerie actif N-1 - Trésorerie passif N-1)</field>
+            <field name="ref">ZA</field>
+            <field name="order">1</field>
+            <field name="operation">other</field>
+            <field name="other"></field>
+            <field name="table_id" ref="financial_statement_configuration_table_4"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_cash_flow_table_2" model="financial.statement.heading">
+            <field name="name">Flux de trésorerie provenant des activités opérationnelles (somme FA à FE)</field>
+            <field name="ref">ZB</field>
+            <field name="order">2</field>
+            <field name="operation">other</field>
+            <field name="other">FA + FB + FC + FD + FE</field>
+            <field name="table_id" ref="financial_statement_configuration_table_4"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_cash_flow_table_3" model="financial.statement.heading">
+            <field name="name">Flux de trésorerie provenant des activités opérationnelles d'investissement (somme FE à
+                FJ)</field>
+            <field name="ref">ZC</field>
+            <field name="order">3</field>
+            <field name="operation">other</field>
+            <field name="other">FF + FG + FH + FI + FJ</field>
+            <field name="table_id" ref="financial_statement_configuration_table_4"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_cash_flow_table_4" model="financial.statement.heading">
+            <field name="name">Flux de trésorerie provenant des capitaux propres (somme FK à FN)</field>
+            <field name="ref">ZD</field>
+            <field name="order">4</field>
+            <field name="operation">other</field>
+            <field name="other">FK + FL + FM + FN</field>
+            <field name="table_id" ref="financial_statement_configuration_table_4"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_cash_flow_table_5" model="financial.statement.heading">
+            <field name="name">Flux de trésorerie provenant des capitaux etrangers (somme FO à FQ)</field>
+            <field name="ref">ZE</field>
+            <field name="order">5</field>
+            <field name="operation">other</field>
+            <field name="other">FO + FP + FQ</field>
+            <field name="table_id" ref="financial_statement_configuration_table_4"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_cash_flow_table_6" model="financial.statement.heading">
+            <field name="name">Flux de trésorerie provenant des activités de financement (D+E)</field>
+            <field name="ref">ZF</field>
+            <field name="order">6</field>
+            <field name="operation">other</field>
+            <field name="other">ZD + ZE</field>
+            <field name="table_id" ref="financial_statement_configuration_table_4"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_cash_flow_table_7" model="financial.statement.heading">
+            <field name="name">VARIATION DE LA TRESORERIE NETTE DE LA PERIODE (B+C+F)</field>
+            <field name="ref">ZG</field>
+            <field name="order">7</field>
+            <field name="operation">other</field>
+            <field name="other">ZB + ZC + ZF</field>
+            <field name="table_id" ref="financial_statement_configuration_table_4"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_cash_flow_table_8" model="financial.statement.heading">
+            <field name="name">Trésorerie nette au 31 Décembre (G+A) Controle: Trésorerie actif N(A)+ Trésorerie passif
+                N(G)</field>
+            <field name="ref">ZH</field>
+            <field name="operation">other</field>
+            <field name="other">ZG + ZA</field>
+            <field name="table_id" ref="financial_statement_configuration_table_4"/>
+        </record>
+
+        <!-- END -->
+
+        <!-- CASH FLOW TABLE CHILDS -->
+        <record id="financial_statement_configuration_heading_cash_flow_table_child_1"
+                model="financial.statement.heading">
+            <field name="name">Flux de trésorerie provenant des activités opérationnelles</field>
+            <field name="ref">None</field>
+            <field name="order">1</field>
+            <field name="parent_id" ref="financial_statement_configuration_heading_cash_flow_table_1"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_cash_flow_table_child_2"
+                model="financial.statement.heading">
+            <field name="name">Capacité d'autofinancement global (C.A.FG)</field>
+            <field name="ref">FA</field>
+            <field name="order">2</field>
+            <field name="parent_id" ref="financial_statement_configuration_heading_cash_flow_table_1"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_cash_flow_table_child_3"
+                model="financial.statement.heading">
+            <field name="name">- Actif circulant HAO</field>
+            <field name="ref">FB</field>
+            <field name="order">3</field>
+            <field name="parent_id" ref="financial_statement_configuration_heading_cash_flow_table_1"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_cash_flow_table_child_4"
+                model="financial.statement.heading">
+            <field name="name">- Variation des stocks</field>
+            <field name="ref">FC</field>
+            <field name="order">4</field>
+            <field name="parent_id" ref="financial_statement_configuration_heading_cash_flow_table_1"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_cash_flow_table_child_5"
+                model="financial.statement.heading">
+            <field name="name">- Variation des créances</field>
+            <field name="ref">FD</field>
+            <field name="order">5</field>
+            <field name="parent_id" ref="financial_statement_configuration_heading_cash_flow_table_1"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_cash_flow_table_child_6"
+                model="financial.statement.heading">
+            <field name="name">+ Variation des du passif circulant</field>
+            <field name="ref">FE</field>
+            <field name="order">6</field>
+            <field name="parent_id" ref="financial_statement_configuration_heading_cash_flow_table_1"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_cash_flow_table_child_7"
+                model="financial.statement.heading">
+            <field name="name">Variation du BF lié aux activités opérationnelles (FB + FC + FD + FE)</field>
+            <field name="ref">None</field>
+            <field name="order">7</field>
+            <field name="parent_id" ref="financial_statement_configuration_heading_cash_flow_table_1"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_cash_flow_table_child_8"
+                model="financial.statement.heading">
+            <field name="name">Flux de trésorerie provenant des activités d'investissement</field>
+            <field name="ref">None</field>
+            <field name="order">8</field>
+            <field name="parent_id" ref="financial_statement_configuration_heading_cash_flow_table_2"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_cash_flow_table_child_9"
+                model="financial.statement.heading">
+            <field name="name">- Décaissements liés aux acquisitions d'immobilisations incorporelles</field>
+            <field name="ref">FF</field>
+            <field name="order">9</field>
+            <field name="parent_id" ref="financial_statement_configuration_heading_cash_flow_table_2"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_cash_flow_table_child_10"
+                model="financial.statement.heading">
+            <field name="name">- Décaissements liés aux acquisitions d'immobilisations corporelles</field>
+            <field name="ref">FG</field>
+            <field name="order">10</field>
+            <field name="parent_id" ref="financial_statement_configuration_heading_cash_flow_table_2"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_cash_flow_table_child_11"
+                model="financial.statement.heading">
+            <field name="name">- Décaissements liés aux acquisitions d'immobilisations financières</field>
+            <field name="ref">FH</field>
+            <field name="order">11</field>
+            <field name="parent_id" ref="financial_statement_configuration_heading_cash_flow_table_2"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_cash_flow_table_child_12"
+                model="financial.statement.heading">
+            <field name="name">+ Encaissements liés aux cessions d'immobilisations incorporelles et corporelles</field>
+            <field name="ref">FI</field>
+            <field name="order">12</field>
+            <field name="parent_id" ref="financial_statement_configuration_heading_cash_flow_table_2"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_cash_flow_table_child_13"
+                model="financial.statement.heading">
+            <field name="name">+ Encaissements liés aux cessions d'immobilisations financière</field>
+            <field name="ref">FJ</field>
+            <field name="order">13</field>
+            <field name="parent_id" ref="financial_statement_configuration_heading_cash_flow_table_2"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_cash_flow_table_child_14"
+                model="financial.statement.heading">
+            <field name="name">Flux de trésorerie provenant du financement par les capitaux propres</field>
+            <field name="ref">None</field>
+            <field name="order">14</field>
+            <field name="parent_id" ref="financial_statement_configuration_heading_cash_flow_table_3"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_cash_flow_table_child_15"
+                model="financial.statement.heading">
+            <field name="name">+ Augmentation de capital par apport nouveau</field>
+            <field name="ref">FK</field>
+            <field name="order">15</field>
+            <field name="parent_id" ref="financial_statement_configuration_heading_cash_flow_table_3"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_cash_flow_table_child_16"
+                model="financial.statement.heading">
+            <field name="name">+ Subventions d'investissement reçues</field>
+            <field name="ref">FL</field>
+            <field name="order">16</field>
+            <field name="parent_id" ref="financial_statement_configuration_heading_cash_flow_table_3"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_cash_flow_table_child_17"
+                model="financial.statement.heading">
+            <field name="name">- Prélèvement sur le capital</field>
+            <field name="ref">FM</field>
+            <field name="order">17</field>
+            <field name="parent_id" ref="financial_statement_configuration_heading_cash_flow_table_3"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_cash_flow_table_child_18"
+                model="financial.statement.heading">
+            <field name="name">- Dividendes versés</field>
+            <field name="ref">FN</field>
+            <field name="order">18</field>
+            <field name="parent_id" ref="financial_statement_configuration_heading_cash_flow_table_3"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_cash_flow_table_child_19"
+                model="financial.statement.heading">
+            <field name="name">Trésorerie provenant du financement par les capitaux etrangers</field>
+            <field name="ref">None</field>
+            <field name="order">19</field>
+            <field name="parent_id" ref="financial_statement_configuration_heading_cash_flow_table_4"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_cash_flow_table_child_20"
+                model="financial.statement.heading">
+            <field name="name">+ Emprunts</field>
+            <field name="ref">FO</field>
+            <field name="order">20</field>
+            <field name="parent_id" ref="financial_statement_configuration_heading_cash_flow_table_4"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_cash_flow_table_child_21"
+                model="financial.statement.heading">
+            <field name="name">+ Autres dettes financières</field>
+            <field name="ref">FP</field>
+            <field name="order">21</field>
+            <field name="parent_id" ref="financial_statement_configuration_heading_cash_flow_table_4"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_cash_flow_table_child_22"
+                model="financial.statement.heading">
+            <field name="name">- Remboursements des emprunts et autres dettes financières</field>
+            <field name="ref">FQ</field>
+            <field name="order">22</field>
+            <field name="parent_id" ref="financial_statement_configuration_heading_cash_flow_table_4"/>
+        </record>
+        <!-- END -->
+    </data>
+</odoo>

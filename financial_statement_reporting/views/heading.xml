@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <!-- Financial Statement heading Form View -->
+        <record id="financial_statement_heading_view_form" model="ir.ui.view">
+            <field name="name">financial.statement.heading.form</field>
+            <field name="model">financial.statement.heading</field>
+            <field name="arch" type="xml">
+                <form string="Rubriques">
+                    <sheet>
+                        <field name="color" invisible="1"/>
+                        <group>
+                            <group>
+                                <field name="name"/>
+                            </group>
+                            <group>
+                                <field name="ref"/>
+                            </group>
+                            <group>
+                                <field name="sequence"/>
+                            </group>
+                            <group>
+                                <field name="parent_id"/>
+                            </group>
+                            <group>
+                                <field name="table_id"/>
+                            </group>
+                            <group>
+                                <field name="other" string="Formule"/>
+                            </group>
+                        </group>
+                        <notebook>
+                            <page string="Comptes">
+                                <field name="heading_account_line_ids">
+                                </field>
+                            </page>
+                        </notebook>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- Financial Statement heading Tree View -->
+        <record id="financial_statement_heading_view_tree" model="ir.ui.view">
+            <field name="name">financial.statement.heading.tree</field>
+            <field name="model">financial.statement.heading</field>
+            <field name="arch" type="xml">
+                <tree string="Rubriques">
+                    <field name="ref"/>
+                    <field name="name"/>
+                    <field name="table_id"/>
+                    <field name="child_ids" widget="many2many_tags"/>
+                </tree>
+            </field>
+        </record>
+
+        <!-- Financial Statement heading Action -->
+        <record id="financial_statement_heading_action_windows" model="ir.actions.act_window">
+            <field name="name">Rubriques</field>
+            <field name="res_model">financial.statement.heading</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p class="o_view_nocontent_smiling_face">
+                    Ajouter une nouvelle rubrique
+                </p>
+            </field>
+        </record>
+
+
+        <record id="financial_rel_heading_account_view" model="ir.ui.view">
+            <field name="name">financial.rel.heading.account.tree</field>
+            <field name="model">financial.rel.heading.account</field>
+            <field name="arch" type="xml">
+                <tree string="Correspondance de comptes">
+                    <field name="input_account" string="Compte"/>
+                    <field name="except_account" string="Compte à exclure"/>
+                    <field name="column_input" string="Colonne associée"/>
+                    <field name="sign" string="Opérateur"/>
+                    <field name="fiscal_period" string="Période Fiscale"/>
+                    <field name="operation" string="Operation"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="financial_rel_heading_account_form" model="ir.ui.view">
+            <field name="name">financial.rel.heading.account.form</field>
+            <field name="model">financial.rel.heading.account</field>
+            <field name="arch" type="xml">
+                <form>
+                    <group>
+                        <group>
+                            <field name="input_account" string="Compte"/>
+                        </group>
+                        <group>
+                            <field name="except_account" string="Compte à exclure"/>
+                        </group>
+                        <group>
+                            <field name="column_input" string="Colonne associée"/>
+                        </group>
+                        <group>
+                            <field name="sign" string="Opérateur"/>
+                        </group>
+                        <group>
+                            <field name="fiscal_period" string="Période Fiscale"/>
+                        </group>
+                        <group>
+                            <field name="operation" string="Operation"/>
+                        </group>
+                        <group>
+                            <field name="heading_id" string="Rubrique" invisible="1"/>
+                        </group>
+                    </group>
+                </form>
+            </field>
+        </record>
+
+        <record id="financial_rel_heading_account_action" model="ir.actions.act_window">
+            <field name="name">Lignes</field>
+            <field name="res_model">financial.rel.heading.account</field>
+            <field name="res_model">financial.rel.heading.account</field>
+            <field name="view_type">form</field>
+            <field name="context">{
+                'default_heading_id': active_id,
+                }
+            </field>
+        </record>
+
+    </data>
+</odoo>

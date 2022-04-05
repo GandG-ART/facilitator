@@ -1,0 +1,1861 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <!-- Capital -->
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_1"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_1"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_1011"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_2"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_1"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_1012"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_3"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_1"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_1013"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_4"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_1"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_1014"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_5"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_1"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_1018"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_6"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_1"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_1021"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_7"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_1"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_1022"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_8"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_1"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_1028"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_9"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_1"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_103"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_10"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_1"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_1041"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_11"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_1"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_1042"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_12"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_1"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_1043"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_13"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_1"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_1047"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_14"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_1"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_1048"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <!-- Apporteurs capital non appélé (-) -->
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_15"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_2"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_109"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <!-- Primes liées au capital social -->
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_16"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_3"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_1051"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_17"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_3"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_1052"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_18"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_3"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_1053"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_19"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_3"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_1054"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_20"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_3"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_1058"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <!-- Ecart de réévaluation -->
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_21"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_4"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_1061"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_22"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_4"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_1062"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <!-- Réserves indisponibles -->
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_23"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_5"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_111"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_24"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_5"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_112"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_25"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_5"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_1131"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_26"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_5"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_1132"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_27"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_5"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_1133"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_28"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_5"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_1134"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_29"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_5"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_1138"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <!-- Réserves libre -->
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_30"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_6"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_1181"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_31"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_6"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_1188"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <!-- Report à nouveau (+ ou -) -->
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_32"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_7"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_121"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_33"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_7"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_1291"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_34"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_7"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_1292"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <!-- Résultat net de l'exercice -->
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_35"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_9"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_131"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_36"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_9"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_139"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <!-- Subvention d'investissement -->
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_37"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_10"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_1411"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_38"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_10"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_1412"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_39"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_10"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_1413"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_40"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_10"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_1414"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_41"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_10"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_1415"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_42"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_10"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_1416"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_43"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_10"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_1417"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_44"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_10"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_1418"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_45"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_10"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_148"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <!-- Provisions reglémentées -->
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_46"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_11"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_151"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_47"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_11"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_152"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_48"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_11"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_1531"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_49"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_11"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_1532"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_50"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_11"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_154"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_51"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_11"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_1551"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_52"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_11"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_1561"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_53"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_11"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_1562"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_54"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_11"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_157"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_55"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_11"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_158"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <!-- Emprunts et dettes finacncières diverses -->
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_56"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_12"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_1611"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_57"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_12"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_1612"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_58"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_12"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_1613"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_59"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_12"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_1618"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_60"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_12"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_162"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_61"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_12"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_163"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_62"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_12"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_164"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_63"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_12"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_1651"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_64"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_12"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_1652"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_65"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_12"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_1661"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_66"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_12"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_1662"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_67"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_12"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_1663"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_68"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_12"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_1664"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_69"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_12"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_1665"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_70"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_12"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_1667"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_71"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_12"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_1668"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_72"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_12"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_1671"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_73"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_12"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_1672"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_74"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_12"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_1673"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_75"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_12"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_1674"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_76"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_12"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_1681"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_77"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_12"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_1682"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_78"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_12"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_1683"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_79"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_12"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_1684"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_80"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_12"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_1685"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_81"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_12"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_1686"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_82"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_12"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_1811"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_83"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_12"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_1812"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_84"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_12"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_182"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_85"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_12"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_183"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_86"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_12"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_184"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <!-- Dettes de location acquisition -->
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_87"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_13"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_172"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_88"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_13"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_173"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_89"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_13"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_174"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_90"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_13"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_1762"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_91"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_13"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_1763"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_92"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_13"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_1764"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_93"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_13"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_1768"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <!-- Provisions pour risques et charges -->
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_94"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_14"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_191"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_95"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_14"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_192"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_96"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_14"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_193"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_97"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_14"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_194"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_98"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_14"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_195"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_99"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_14"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_1961"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_100"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_14"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_1962"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_101"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_14"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_197"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_102"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_14"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_1981"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_103"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_14"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_1983"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_104"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_14"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_1984"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_105"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_14"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_1985"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_106"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_14"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_1988"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <!-- Dettes circulante HAO -->
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_107"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_15"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4811"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_108"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_15"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4812"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_109"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_15"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4813"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_110"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_15"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_48161"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_111"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_15"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_48162"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_112"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_15"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4817"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_113"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_15"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_48171"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_114"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_15"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_48172"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_115"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_15"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_48181"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_116"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_15"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_48182"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_117"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_15"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4821"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_118"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_15"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4822"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_119"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_15"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_484"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_120"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_15"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4998"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <!-- Clients, avances reçues -->
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_121"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_16"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4191"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_122"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_16"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4192"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_123"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_16"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4194"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_124"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_16"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4198"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <!-- Fournisseurs d'exploitation -->
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_125"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_17"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4011"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_126"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_17"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4012"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_127"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_17"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4013"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_128"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_17"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4016"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_129"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_17"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4017"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_130"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_17"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4021"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_131"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_17"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4022"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_132"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_17"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4023"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_133"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_17"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4041"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_134"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_17"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4042"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_135"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_17"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4046"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_136"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_17"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4047"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_137"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_17"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4081"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_138"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_17"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4082"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_139"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_17"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4083"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_140"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_17"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4086"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <!-- Dettes fiscales et sociales -->
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_141"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_18"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4211"/>
+            <field name="operation">sum_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_142"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_18"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4212"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_143"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_18"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4213"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_144"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_18"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4221"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_145"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_18"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4231"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_146"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_18"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4232"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_147"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_18"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4233"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_148"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_18"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4241"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_149"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_18"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4242"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_150"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_18"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4245"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_151"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_18"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4248"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_151"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_18"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4251"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_152"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_18"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4252"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_153"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_18"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4258"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_154"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_18"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4261"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_155"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_18"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4264"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_156"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_18"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_427"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_157"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_18"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4281"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_158"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_18"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4286"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_159"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_18"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4287"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_160"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_18"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4311"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_161"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_18"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4312"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_162"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_18"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4313"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_163"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_18"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4314"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_164"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_18"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4318"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_165"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_18"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_432"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_166"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_18"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4331"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_167"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_18"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4332"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_168"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_18"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4333"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_169"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_18"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4381"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_170"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_18"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4382"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_171"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_18"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4386"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_172"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_18"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4387"/>
+            <field name="operation">balance_credit</field>
+        </record>
+        
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_173"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_18"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_441"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_174"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_18"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4421"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_175"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_18"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4422"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_176"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_18"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4423"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_177"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_18"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4424"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_178"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_18"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4426"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_179"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_18"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4428"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_180"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_18"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4431"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_181"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_18"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4432"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_182"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_18"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4433"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_183"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_18"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4334"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_184"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_18"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4335"/>
+            <field name="operation">balance_credit</field>
+        </record>
+        
+        <!-- Autres dettes -->
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_185"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_19"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_185"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_186"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_19"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_451"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_187"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_19"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_452"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_188"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_19"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4581"/>
+            <field name="operation">balance_credit</field>
+        </record>
+        
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_189"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_19"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4582"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_190"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_19"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4611"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_191"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_19"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4612"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_192"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_19"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4613"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_193"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_19"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4614"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_194"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_19"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4615"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_195"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_19"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4616"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_196"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_19"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4617"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_197"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_19"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4618"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_198"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_19"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4619"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_199"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_19"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4621"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_200"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_19"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4626"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_201"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_19"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4631"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_202"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_19"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4636"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_203"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_19"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_465"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_204"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_19"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_466"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_205"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_19"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_467"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_206"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_19"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_469"/>
+            <field name="operation">balance_credit</field>
+        </record>
+        
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_207"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_19"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4711"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_208"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_19"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4712"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_209"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_19"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4713"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_210"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_19"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4715"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_211"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_19"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4716"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_212"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_19"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4717"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_213"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_19"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4718"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_214"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_19"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4719"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_215"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_19"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4721"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_216"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_19"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4726"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_217"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_19"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4731"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_218"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_19"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4732"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_219"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_19"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4733"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_220"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_19"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4734"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_221"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_19"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4739"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_222"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_19"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4746"/>
+            <field name="operation">balance_credit</field>
+        </record>
+        
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_223"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_19"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4747"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_224"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_19"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4751"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_224"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_19"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4752"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_225"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_19"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_476"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_226"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_19"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_477"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_227"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_19"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_47811"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_228"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_19"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_47818"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_229"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_19"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4782"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_230"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_19"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_47831"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_231"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_19"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_47838"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_232"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_19"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4784"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_233"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_19"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4786"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_234"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_19"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4788"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <!-- Provisions pour risques à court terme -->
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_235"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_20"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4991"/>
+            <field name="operation">balance_credit</field>
+        </record>
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_236"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_20"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_599"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+
+        <!-- Banques, credit d'escompte -->
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_237"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_21"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_564"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_238"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_21"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_565"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <!-- Banque, établissement financiers et credits de trésorerie -->
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_239"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_22"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_5215"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_240"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_22"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_522"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_241"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_22"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_523"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_242"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_22"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_524"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_243"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_22"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_525"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_244"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_22"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_5261"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_245"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_22"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_5267"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_246"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_22"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_531"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_247"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_22"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_532"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_248"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_22"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_533"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_249"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_22"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_536"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_250"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_22"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_538"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_251"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_22"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_561"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_252"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_22"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_566"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <!-- Ecart de conversion-Passif -->
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_253"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_23"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_47911"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_254"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_23"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_47918"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_255"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_23"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4792"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_256"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_23"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_47931"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_257"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_23"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_47938"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_258"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_23"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4794"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_259"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_23"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4797"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+        <record id="financial_statement_configuration_heading_balance_statement_sheeet_account_260"
+                model="financial.rel.heading.account">
+            <field name="heading_id" ref="financial_statement_configuration_heading_passive_balance_sheet_child_23"/>
+            <field name="account_id" ref="l10n_pcgo.pcgo_4798"/>
+            <field name="operation">balance_credit</field>
+        </record>
+
+    </data>
+</odoo>

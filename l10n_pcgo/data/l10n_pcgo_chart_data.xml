@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record model="account.account.type" id="account_type_hors_bilan">
+        <field name="name">Comptes Hors Bilan</field>
+<!--        <field name="internal_group">off_balance</field>-->
+    </record>
+
+  <!-- Chart Template -->
+  <record id="l10n_pcgo_chart_template" model="account.chart.template">
+    <field name="name">SYSCOHADA Révisé - Plan de compte</field>
+    <field name="code_digits">6</field>
+    <field name="currency_id" ref="base.XOF"/>
+    <field name="bank_account_code_prefix">5211</field>
+    <field name="cash_account_code_prefix">5711</field>
+    <field name="transfer_account_code_prefix">588</field>
+  </record>
+
+
+</odoo>

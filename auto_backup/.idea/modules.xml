@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/auto_backup.iml" filepath="$PROJECT_DIR$/.idea/auto_backup.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../l10n_sn_hr_payroll/.idea/l10n_optipay.iml" filepath="$PROJECT_DIR$/../l10n_sn_hr_payroll/.idea/l10n_optipay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../optipay/.idea/optipay.iml" filepath="$PROJECT_DIR$/../optipay/.idea/optipay.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<templates id="financial_statement" xml:space="preserve">
+    <t t-name="FinancialStatement.buttons">
+        <t t-foreach="buttons" t-as="button">
+            <t t-if="button.display_button">
+                <button type="button" class="btn btn-primary" t-att-action="button.action"><t t-esc="button.name"/></button>
+            </t>
+        </t>
+    </t>
+</templates>

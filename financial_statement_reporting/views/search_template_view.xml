@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <template id="search_template_date_filter">
+            <a type="button" class="dropdown-toggle" data-toggle="dropdown">
+                <span class="fa fa-calendar" title="Dates" role="img" aria-label="Dates"/>
+                <t t-if="options['date'].get('string') and options['date'].get('filter') != 'custom'">
+                    <t t-esc="options['date']['string']"/>
+                </t>
+                <t t-if="options['date'].get('filter') == 'custom'">
+                    <t t-if="options['date']['mode'] == 'single'">Date:
+                        <span class="js_format_date">
+                            <t t-esc="options['date']['date_to']"/>
+                        </span>
+                    </t>
+                    <t t-if="options['date']['mode'] == 'range'">From:
+                        <span class="js_format_date">
+                            <t t-esc="options['date']['date_from']"/>
+                        </span>
+                        <br/>
+                        <span class="o_reports_date_to">to:
+                            <span class="js_format_date">
+                                <t t-esc="options['date']['date_to']"/>
+                            </span>
+                        </span>
+                    </t>
+                </t>
+            </a>
+            <div class="dropdown-menu o_filters_menu" role="menu">
+                <t t-if="options['date']['mode'] == 'range'">
+                    <t t-if="options['date']['show_quarter']">
+                        <a role="menuitem" class="dropdown-item js_account_report_date_filter" title="This Quarter"
+                           data-filter="this_quarter">Trimestriel
+                        </a>
+                    </t>
+                    <a role="menuitem" class="dropdown-item js_account_report_date_filter" title="This Financial Year"
+                       data-filter="this_year">Annuel
+                    </a>
+                </t>
+                <div role="separator" class="dropdown-divider"></div>
+                <a role="menuitem" class="dropdown-item js_foldable_trigger o_closed_menu"
+                   data-filter='custom_filter_date'>Personnalisé
+                </a>
+                <div class="o_foldable_menu o_closed_menu o_account_report_search" data-filter='custom_filter_date'>
+                    <t t-if="options['date']['mode'] == 'range'">
+                        <label class="custom-date" for="date_from">Start Date :</label>
+                        <div class="form-group custom-date">
+                            <div class='o_datepicker js_account_reports_datetimepicker'
+                                 t-att-data-default-value="options['date']['date_from']">
+                                <input type='text' class="o_datepicker_input" name="date_from"/>
+                                <span class="o_datepicker_button"/>
+                            </div>
+                        </div>
+                    </t>
+                    <label class="custom-date" for="date_to" t-if="options['date']['mode'] == 'single'">End Date :
+                    </label>
+                    <label class="custom-date" for="date_to" t-if="options['date']['mode'] == 'range'">Date :</label>
+                    <div class="form-group custom-date">
+                        <div class='o_datepicker js_account_reports_datetimepicker'
+                             t-att-data-default-value="options['date']['date_to']">
+                            <input type='text' class="o_datepicker_input" name="date_to"/>
+                            <span class="o_datepicker_button"/>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-primary js_account_report_date_filter" data-filter="custom">
+                        Apply
+                    </button>
+                </div>
+            </div>
+        </template>
+
+
+        <template id="search_template">
+            <t t-log="options"/>
+            <div class="btn-group o_dropdown o_account_reports_filter_date" t-if="options.get('date') != None">
+                <t t-call="financial_statement_reporting.search_template_date_filter"/>
+            </div>
+        </template>
+
+    </data>
+</odoo>

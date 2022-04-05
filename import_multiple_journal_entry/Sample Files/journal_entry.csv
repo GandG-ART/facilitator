@@ -1,0 +1,6 @@
+Number,date,Ref,Journal,name,partner,analytic_account_id,account,date_maturity,debit,credit,amount_currency,currency,full_reconcile_id
+OD/2018/0001,05/10/18,Office 1,Cash,'Balance Suppliers',,,101000,2018-10-09,5000,0,,USD,A1
+OD/2018/0001,05/10/18,Office 1,Cash,PI14/0101,ASUSTeK,,101000,2018-10-09,0,3500,,USD,A1
+OD/2018/0001,05/10/18,Office 1,Cash,PI14/0250,ASUSTeK,,101000,2018-10-09,0,1500,,USD,A1
+OD/2018/0002,05/10/18,Office 2,Cash,'Balance Suppliers',,,101000,2018-10-09,5000,0,,USD,A2
+OD/2018/0002,05/10/18,Office 2,Cash,PI14/0250,ASUSTeK,,101000,2018-10-09,0,5000,,USD,A2

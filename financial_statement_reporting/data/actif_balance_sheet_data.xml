@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+
+        <!-- Accounting configuration heading parent BILAN ACTIF -->
+        <record id="financial_statement_configuration_heading_actif_balance_sheet_1" model="financial.statement.heading">
+            <field name="name">IMMOBILISATIONS INCORPORELLES</field>
+            <field name="ref">AD</field>
+            <field name="order">1</field>
+            <field name="operation">other</field>
+            <field name="other">AE + AF + AG + AH</field>
+            <field name="table_id" ref="financial_statement_configuration_table_2"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_actif_balance_sheet_2" model="financial.statement.heading">
+            <field name="name">IMMOBILISATIONS CORPORELLES</field>
+            <field name="ref">AI</field>
+            <field name="order">2</field>
+            <field name="operation">other</field>
+            <field name="other">AJ + AK + AL + AM + AN</field>
+            <field name="table_id" ref="financial_statement_configuration_table_2"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_actif_balance_sheet_3" model="financial.statement.heading">
+            <field name="name">IMMOBILISATIONS FINANCIERES</field>
+            <field name="ref">AQ</field>
+            <field name="order">3</field>
+            <field name="operation">other</field>
+            <field name="other">AR + AS</field>
+            <field name="table_id" ref="financial_statement_configuration_table_2"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_actif_balance_sheet_4" model="financial.statement.heading">
+            <field name="name">TOTAL ACTIF IMMOBILISE</field>
+            <field name="ref">AZ</field>
+            <field name="order">4</field>
+            <field name="operation">other</field>
+            <field name="other">AQ + AI + AD + AP</field>
+            <field name="table_id" ref="financial_statement_configuration_table_2"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_actif_balance_sheet_5" model="financial.statement.heading">
+            <field name="name">CREANCES ET EMPLOIS ASSIMILES</field>
+            <field name="ref">BG</field>
+            <field name="order">5</field>
+            <field name="operation">other</field>
+            <field name="other">BH + BI + BJ</field>
+            <field name="table_id" ref="financial_statement_configuration_table_2"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_actif_balance_sheet_6" model="financial.statement.heading">
+            <field name="name">TOTAL ACTIF CIRCULANT</field>
+            <field name="ref">BK</field>
+            <field name="order">6</field>
+            <field name="operation">other</field>
+            <field name="other">BA + BB + BH + BI + BJ</field>
+            <field name="table_id" ref="financial_statement_configuration_table_2"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_actif_balance_sheet_7" model="financial.statement.heading">
+            <field name="name">TOTAL TRESORERIE ACTIF</field>
+            <field name="ref">BT</field>
+            <field name="order">7</field>
+            <field name="operation">other</field>
+            <field name="other">BQ + BR + BS</field>
+            <field name="table_id" ref="financial_statement_configuration_table_2"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_actif_balance_sheet_8" model="financial.statement.heading">
+            <field name="name">TOTAL GENERAL</field>
+            <field name="ref">BZ</field>
+            <field name="order">8</field>
+            <field name="operation">other</field>
+            <field name="other">BU + BT + BK + AQ + AI + AD + AP</field>
+            <field name="table_id" ref="financial_statement_configuration_table_2"/>
+        </record>
+        <!-- END -->
+
+        <!-- Accounting configuration heading actif balance sheet childs -->
+        <record id="financial_statement_configuration_heading_actif_balance_sheet_child_1" model="financial.statement.heading">
+            <field name="name">Frais de développement et de prospection</field>
+            <field name="ref">AE</field>
+            <field name="order">1</field>
+            <field name="parent_id" ref="financial_statement_configuration_heading_actif_balance_sheet_1"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_actif_balance_sheet_child_2" model="financial.statement.heading">
+            <field name="name">Brevets, licences, logiciels et droits simulaires</field>
+            <field name="ref">AF</field>
+            <field name="order">2</field>
+            <field name="parent_id" ref="financial_statement_configuration_heading_actif_balance_sheet_1"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_actif_balance_sheet_child_3" model="financial.statement.heading">
+            <field name="name">Fond commercial et droit au bail</field>
+            <field name="ref">AG</field>
+            <field name="order">3</field>
+            <field name="parent_id" ref="financial_statement_configuration_heading_actif_balance_sheet_1"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_actif_balance_sheet_child_4" model="financial.statement.heading">
+            <field name="name">Autres immobilisations incorporelles</field>
+            <field name="ref">AH</field>
+            <field name="order">4</field>
+            <field name="parent_id" ref="financial_statement_configuration_heading_actif_balance_sheet_1"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_actif_balance_sheet_child_5" model="financial.statement.heading">
+            <field name="name">Terrains</field>
+            <field name="ref">AJ</field>
+            <field name="order">5</field>
+            <field name="parent_id" ref="financial_statement_configuration_heading_actif_balance_sheet_2"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_actif_balance_sheet_child_6" model="financial.statement.heading">
+            <field name="name">Batiments</field>
+            <field name="ref">AK</field>
+            <field name="order">6</field>
+            <field name="parent_id" ref="financial_statement_configuration_heading_actif_balance_sheet_2"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_actif_balance_sheet_child_7" model="financial.statement.heading">
+            <field name="name">Aménagements, agencements et installations</field>
+            <field name="ref">AL</field>
+            <field name="order">7</field>
+            <field name="parent_id" ref="financial_statement_configuration_heading_actif_balance_sheet_2"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_actif_balance_sheet_child_8" model="financial.statement.heading">
+            <field name="name">Materiels, mobiliers et actifs biologiques</field>
+            <field name="ref">AM</field>
+            <field name="order">8</field>
+            <field name="parent_id" ref="financial_statement_configuration_heading_actif_balance_sheet_2"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_actif_balance_sheet_child_9" model="financial.statement.heading">
+            <field name="name">Matériels de transport</field>
+            <field name="ref">AN</field>
+            <field name="order">9</field>
+            <field name="parent_id" ref="financial_statement_configuration_heading_actif_balance_sheet_2"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_actif_balance_sheet_child_10" model="financial.statement.heading">
+            <field name="name">Avancement et accomptes versés sur immobilisation</field>
+            <field name="ref">AP</field>
+            <field name="order">10</field>
+            <field name="parent_id" ref="financial_statement_configuration_heading_actif_balance_sheet_2"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_actif_balance_sheet_child_11" model="financial.statement.heading">
+            <field name="name">Titre de participation</field>
+            <field name="ref">AR</field>
+            <field name="order">11</field>
+            <field name="parent_id" ref="financial_statement_configuration_heading_actif_balance_sheet_3"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_actif_balance_sheet_child_12" model="financial.statement.heading">
+            <field name="name">Autres immobilisations financières</field>
+            <field name="ref">AS</field>
+            <field name="order">12</field>
+            <field name="parent_id" ref="financial_statement_configuration_heading_actif_balance_sheet_3"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_actif_balance_sheet_child_13" model="financial.statement.heading">
+            <field name="name">Actifs circulant HAO</field>
+            <field name="ref">BA</field>
+            <field name="order">13</field>
+            <field name="parent_id" ref="financial_statement_configuration_heading_actif_balance_sheet_4"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_actif_balance_sheet_child_14" model="financial.statement.heading">
+            <field name="name">Stock et encours</field>
+            <field name="ref">BB</field>
+            <field name="order">14</field>
+            <field name="parent_id" ref="financial_statement_configuration_heading_actif_balance_sheet_4"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_actif_balance_sheet_child_15" model="financial.statement.heading">
+            <field name="name">Fournisseurs avances versées</field>
+            <field name="ref">BH</field>
+            <field name="order">15</field>
+            <field name="parent_id" ref="financial_statement_configuration_heading_actif_balance_sheet_5"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_actif_balance_sheet_child_16" model="financial.statement.heading">
+            <field name="name">Clients</field>
+            <field name="ref">BI</field>
+            <field name="order">16</field>
+            <field name="parent_id" ref="financial_statement_configuration_heading_actif_balance_sheet_5"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_actif_balance_sheet_child_17" model="financial.statement.heading">
+            <field name="name">Autres créances</field>
+            <field name="ref">BJ</field>
+            <field name="order">17</field>
+            <field name="parent_id" ref="financial_statement_configuration_heading_actif_balance_sheet_5"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_actif_balance_sheet_child_18" model="financial.statement.heading">
+            <field name="name">Titre de placement</field>
+            <field name="ref">BQ</field>
+            <field name="order">18</field>
+            <field name="parent_id" ref="financial_statement_configuration_heading_actif_balance_sheet_6"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_actif_balance_sheet_child_19" model="financial.statement.heading">
+            <field name="name">Valeurs à encaisser</field>
+            <field name="ref">BR</field>
+            <field name="order">19</field>
+            <field name="parent_id" ref="financial_statement_configuration_heading_actif_balance_sheet_6"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_actif_balance_sheet_child_20" model="financial.statement.heading">
+            <field name="name">Banque, chéques postaux, caisse et assimilés</field>
+            <field name="ref">BS</field>
+            <field name="order">20</field>
+            <field name="parent_id" ref="financial_statement_configuration_heading_actif_balance_sheet_6"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_actif_balance_sheet_child_21" model="financial.statement.heading">
+            <field name="name">Ecart de conversion-Actif</field>
+            <field name="ref">BU</field>
+            <field name="order">21</field>
+            <field name="parent_id" ref="financial_statement_configuration_heading_actif_balance_sheet_7"/>
+        </record>
+        <!-- END -->
+    </data>
+</odoo>

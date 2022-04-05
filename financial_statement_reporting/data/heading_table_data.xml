@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+
+        <!-- Financial heading configuration table -->
+        <record id="financial_statement_configuration_table_1" model="financial.statement.table">
+            <field name="name">COMPTE DE RESULTAT</field>
+            <field name="code">CR</field>
+        </record>
+        <record id="financial_statement_configuration_table_2" model="financial.statement.table">
+            <field name="name">BILAN ACTIF</field>
+            <field name="code">BA</field>
+        </record>
+        <record id="financial_statement_configuration_table_3" model="financial.statement.table">
+            <field name="name">BILAN PASSIF</field>
+            <field name="code">BP</field>
+        </record>
+        <record id="financial_statement_configuration_table_4" model="financial.statement.table">
+            <field name="name">TABLEAU DES FLUX DE TRESORERIE</field>
+            <field name="code">TFT</field>
+        </record>
+        <!-- END -->
+
+    </data>
+</odoo>

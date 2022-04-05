@@ -1,0 +1,11 @@
+<odoo>
+    <template id="assets_finanacial_statement_reporting" name="Financial Statement Reporting" inherit_id="web.assets_backend">
+        <xpath expr="." position="inside">
+            <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet"/>
+            <link rel="stylesheet" type="text/scss" href="/financial_statement_reporting/static/src/scss/style.scss"/>
+            <link rel="stylesheet" type="text/scss" href="/financial_statement_reporting/static/src/lib/bootstrap/css/bootstrap-toggle.min.css"/>
+            <script type="text/javascript" src="/financial_statement_reporting/static/src/js/financial_statement_report.js"/>
+            <script type="text/javascript" src="/financial_statement_reporting/static/src/js/action_manager_financial_statement_reporting.js"/>
+        </xpath>
+    </template>
+</odoo>

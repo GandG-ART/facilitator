@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_financial_statement_heading,financial_statement_heading,model_financial_statement_heading,base.group_user,1,1,1,1
+access_financial_statement_table,financial_statement_table,model_financial_statement_table,base.group_user,1,1,1,1
+access_financial_statement_rel_heading_account,financial_statement_rel_heading_account,model_financial_rel_heading_account,base.group_user,1,1,1,1

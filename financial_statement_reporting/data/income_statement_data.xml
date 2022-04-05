@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+
+        <!-- Accounting configuration heading parent COMPTE DE RESULTAT -->
+        <record id="financial_statement_configuration_heading_income_statement_1" model="financial.statement.heading">
+            <field name="name">MARGE COMMERCIALE (SOMME TA à RB)</field>
+            <field name="ref">XA</field>
+            <field name="order">1</field>
+            <field name="operation">other</field>
+            <field name="other">TA + RA + RB</field>
+            <field name="table_id" ref="financial_statement_configuration_table_1"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_income_statement_2" model="financial.statement.heading">
+            <field name="name">CHIFFRE D'AFFAIRES (A + B + C + D)</field>
+            <field name="ref">XB</field>
+            <field name="order">2</field>
+            <field name="operation">other</field>
+            <field name="other">TA + TB + TC + TD</field>
+            <field name="table_id" ref="financial_statement_configuration_table_1"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_income_statement_3" model="financial.statement.heading">
+            <field name="name">VALEUR AJOUTEE (XB + RA + RB) + (somme TE à RJ)</field>
+            <field name="ref">XC</field>
+            <field name="order">3</field>
+            <field name="operation">other</field>
+            <field name="other">XB + RA + RB + TE + TF + TG + TH + TI + RC + RD + RE + RF + RG + RH + RI + RJ</field>
+            <field name="table_id" ref="financial_statement_configuration_table_1"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_income_statement_4" model="financial.statement.heading">
+            <field name="name">EXCÉDENT BRUT D'EXPLOITATION (XC + RK)</field>
+            <field name="ref">XD</field>
+            <field name="order">4</field>
+            <field name="operation">other</field>
+            <field name="other">XC + RK</field>
+            <field name="table_id" ref="financial_statement_configuration_table_1"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_income_statement_5" model="financial.statement.heading">
+            <field name="name">RÉSULTAT D'EXPLOITATION (XD+TJ+ RL)</field>
+            <field name="ref">XE</field>
+            <field name="order">5</field>
+            <field name="operation">other</field>
+            <field name="other">XD + TJ + RL</field>
+            <field name="table_id" ref="financial_statement_configuration_table_1"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_income_statement_6" model="financial.statement.heading">
+            <field name="name">RESULTAT FINANCIER (somme TK à RN))</field>
+            <field name="ref">XF</field>
+            <field name="order">6</field>
+            <field name="operation">other</field>
+            <field name="other">TK + TL + TM + RM + RN</field>
+            <field name="table_id" ref="financial_statement_configuration_table_1"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_income_statement_7" model="financial.statement.heading">
+            <field name="name">RESULTAT DES ACTIVITES ORDINAIRES (XE+XF)</field>
+            <field name="ref">XG</field>
+            <field name="order">7</field>
+            <field name="operation">other</field>
+            <field name="other">XE + XF</field>
+            <field name="table_id" ref="financial_statement_configuration_table_1"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_income_statement_8" model="financial.statement.heading">
+            <field name="name">RESULTAT HORS ACTIVITES ORDINAIRES (somme TN à RP)</field>
+            <field name="ref">XH</field>
+            <field name="order">8</field>
+            <field name="operation">other</field>
+            <field name="other">TN + TO + RO + RO + RP</field>
+            <field name="table_id" ref="financial_statement_configuration_table_1"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_income_statement_9" model="financial.statement.heading">
+            <field name="name">RESULTAT NET (XG + XH + RQ + RS)</field>
+            <field name="ref">XI</field>
+            <field name="order">9</field>
+            <field name="operation">other</field>
+            <field name="other">XG + XH + RQ + RS</field>
+            <field name="table_id" ref="financial_statement_configuration_table_1"/>
+        </record>
+        <!-- END -->
+
+
+        <!-- Accounting configuration heading childs -->
+        <record id="financial_statement_configuration_heading_income_statement_child_1" model="financial.statement.heading">
+            <field name="name">Ventes de marchandises</field>
+            <field name="ref">TA</field>
+            <field name="order">1</field>
+            <field name="parent_id" ref="financial_statement_configuration_heading_income_statement_1"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_income_statement_child_2" model="financial.statement.heading">
+            <field name="name">Achats de marchandises</field>
+            <field name="ref">RA</field>
+            <field name="order">2</field>
+            <field name="parent_id" ref="financial_statement_configuration_heading_income_statement_1"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_income_statement_child_3" model="financial.statement.heading">
+            <field name="name">Variation de stocks de marchandises</field>
+            <field name="ref">RB</field>
+            <field name="order">3</field>
+            <field name="parent_id" ref="financial_statement_configuration_heading_income_statement_1"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_income_statement_child_4" model="financial.statement.heading">
+            <field name="name">Vente de produits fabriqués</field>
+            <field name="ref">TB</field>
+            <field name="order">1</field>
+            <field name="parent_id" ref="financial_statement_configuration_heading_income_statement_2"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_income_statement_child_5" model="financial.statement.heading">
+            <field name="name">Travaux, services vendus</field>
+            <field name="ref">TC</field>
+            <field name="order">2</field>
+            <field name="parent_id" ref="financial_statement_configuration_heading_income_statement_2"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_income_statement_child_6" model="financial.statement.heading">
+            <field name="name">Produits accessoires</field>
+            <field name="ref">TD</field>
+            <field name="order">3</field>
+            <field name="parent_id" ref="financial_statement_configuration_heading_income_statement_2"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_income_statement_child_7" model="financial.statement.heading">
+            <field name="name">Production stockée (ou déstockage) </field>
+            <field name="ref">TE</field>
+            <field name="order">1</field>
+            <field name="parent_id" ref="financial_statement_configuration_heading_income_statement_3"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_income_statement_child_8" model="financial.statement.heading">
+            <field name="name">Production immobilisée</field>
+            <field name="ref">TF</field>
+            <field name="order">2</field>
+            <field name="parent_id" ref="financial_statement_configuration_heading_income_statement_3"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_income_statement_child_9" model="financial.statement.heading">
+            <field name="name">Subventions d'exploitation</field>
+            <field name="ref">TG</field>
+            <field name="order">3</field>
+            <field name="parent_id" ref="financial_statement_configuration_heading_income_statement_3"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_income_statement_child_10" model="financial.statement.heading">
+            <field name="name">Autres produits </field>
+            <field name="ref">TH</field>
+            <field name="order">4</field>
+            <field name="parent_id" ref="financial_statement_configuration_heading_income_statement_3"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_income_statement_child_11" model="financial.statement.heading">
+            <field name="name">Transfert de charges d'exploitation</field>
+            <field name="ref">TI</field>
+            <field name="order">5</field>
+            <field name="parent_id" ref="financial_statement_configuration_heading_income_statement_3"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_income_statement_child_12" model="financial.statement.heading">
+            <field name="name">Achats de matières premières et fournitures liées</field>
+            <field name="ref">RC</field>
+            <field name="order">5</field>
+            <field name="parent_id" ref="financial_statement_configuration_heading_income_statement_3"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_income_statement_child_13" model="financial.statement.heading">
+            <field name="name">Variation de stocks de matières premières et fournitures liées</field>
+            <field name="ref">RD</field>
+            <field name="order">6</field>
+            <field name="parent_id" ref="financial_statement_configuration_heading_income_statement_3"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_income_statement_child_14" model="financial.statement.heading">
+            <field name="name">Autres achats</field>
+            <field name="ref">RE</field>
+            <field name="order">7</field>
+            <field name="parent_id" ref="financial_statement_configuration_heading_income_statement_3"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_income_statement_child_15" model="financial.statement.heading">
+            <field name="name">Variation de stocks d'autres approvisionnements</field>
+            <field name="ref">RF</field>
+            <field name="order">8</field>
+            <field name="parent_id" ref="financial_statement_configuration_heading_income_statement_3"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_income_statement_child_16" model="financial.statement.heading">
+            <field name="name">Transports</field>
+            <field name="ref">RG</field>
+            <field name="order">9</field>
+            <field name="parent_id" ref="financial_statement_configuration_heading_income_statement_3"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_income_statement_child_17" model="financial.statement.heading">
+            <field name="name">Services extérieurs</field>
+            <field name="ref">RH</field>
+            <field name="order">10</field>
+            <field name="parent_id" ref="financial_statement_configuration_heading_income_statement_3"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_income_statement_child_18" model="financial.statement.heading">
+            <field name="name">Impôts et taxes</field>
+            <field name="ref">RI</field>
+            <field name="order">11</field>
+            <field name="parent_id" ref="financial_statement_configuration_heading_income_statement_3"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_income_statement_child_19" model="financial.statement.heading">
+            <field name="name">Autres charges</field>
+            <field name="ref">RJ</field>
+            <field name="order">12</field>
+            <field name="parent_id" ref="financial_statement_configuration_heading_income_statement_3"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_income_statement_child_20" model="financial.statement.heading">
+            <field name="name">Charges de personnel</field>
+            <field name="ref">RK</field>
+            <field name="order">1</field>
+            <field name="parent_id" ref="financial_statement_configuration_heading_income_statement_4"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_income_statement_child_21" model="financial.statement.heading">
+            <field name="name">Reprise d'amortissements, provisions et dépréciations</field>
+            <field name="ref">TJ</field>
+            <field name="order">1</field>
+            <field name="parent_id" ref="financial_statement_configuration_heading_income_statement_5"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_income_statement_child_22" model="financial.statement.heading">
+            <field name="name">Dotations aux amortissements et aux provisions</field>
+            <field name="ref">RL</field>
+            <field name="order">2</field>
+            <field name="parent_id" ref="financial_statement_configuration_heading_income_statement_5"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_income_statement_child_23" model="financial.statement.heading">
+            <field name="name">Revenus financiers et assimilés</field>
+            <field name="ref">TK</field>
+            <field name="order">1</field>
+            <field name="parent_id" ref="financial_statement_configuration_heading_income_statement_6"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_income_statement_child_24" model="financial.statement.heading">
+            <field name="name">Reprises de provisions et dépréciations financières</field>
+            <field name="ref">TL</field>
+            <field name="order">2</field>
+            <field name="parent_id" ref="financial_statement_configuration_heading_income_statement_6"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_income_statement_child_25" model="financial.statement.heading">
+            <field name="name">Transferts de charges financières</field>
+            <field name="ref">TM</field>
+            <field name="order">3</field>
+            <field name="parent_id" ref="financial_statement_configuration_heading_income_statement_6"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_income_statement_child_26" model="financial.statement.heading">
+            <field name="name">Frais financiers et charges assimilées</field>
+            <field name="ref">RM</field>
+            <field name="order">4</field>
+            <field name="parent_id" ref="financial_statement_configuration_heading_income_statement_6"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_income_statement_child_27" model="financial.statement.heading">
+            <field name="name">Dotations aux provisions et dépréciations financières</field>
+            <field name="ref">RN</field>
+            <field name="order">5</field>
+            <field name="parent_id" ref="financial_statement_configuration_heading_income_statement_6"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_income_statement_child_28" model="financial.statement.heading">
+            <field name="name">Produit des cessions d'immobilisations</field>
+            <field name="ref">TN</field>
+            <field name="order">1</field>
+            <field name="parent_id" ref="financial_statement_configuration_heading_income_statement_8"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_income_statement_child_29" model="financial.statement.heading">
+            <field name="name">Autres produits HAO</field>
+            <field name="ref">TO</field>
+            <field name="order">2</field>
+            <field name="parent_id" ref="financial_statement_configuration_heading_income_statement_8"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_income_statement_child_30" model="financial.statement.heading">
+            <field name="name">Valeurs comptables des cessions d'immobilisations </field>
+            <field name="ref">RO</field>
+            <field name="order">3</field>
+            <field name="parent_id" ref="financial_statement_configuration_heading_income_statement_8"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_income_statement_child_31" model="financial.statement.heading">
+            <field name="name">Autres Charges H.A.O.</field>
+            <field name="ref">RP</field>
+            <field name="order">4</field>
+            <field name="parent_id" ref="financial_statement_configuration_heading_income_statement_8"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_income_statement_child_32" model="financial.statement.heading">
+            <field name="name">Participation des travailleurs</field>
+            <field name="ref">RQ</field>
+            <field name="order">1</field>
+            <field name="parent_id" ref="financial_statement_configuration_heading_income_statement_9"/>
+        </record>
+
+        <record id="financial_statement_configuration_heading_income_statement_child_33" model="financial.statement.heading">
+            <field name="name">Impot sur le résultat</field>
+            <field name="ref">RS</field>
+            <field name="order">2</field>
+            <field name="parent_id" ref="financial_statement_configuration_heading_income_statement_9"/>
+        </record>
+        <!-- END -->
+
+    </data>
+</odoo>
